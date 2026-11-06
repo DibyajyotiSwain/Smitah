@@ -1,0 +1,17 @@
+flowchart TB
+ U[User] --> UI[Proposed SMITAH Interface]
+ UI --> P[Profile and Preferences]
+ UI --> Q[Discovery Quiz]
+ UI --> ACT[Activity Catalogue]
+ UI --> COM[Community and Sharing Concept]
+ P --> REC[Preference-based Activity Suggestions]
+ Q --> REC
+ ACT --> REC
+ REC --> UI
+ UI --> FB[Optional Feedback]
+ FB --> REVIEW[Human Review and Design Refinement]
+ REVIEW --> CONTENT[Updated Activity and Experience Design]
+ CONTENT --> ACT
+ PRIV[Privacy, Accessibility and Safety Principles] -. guide .-> UI
+ PRIV -. guide .-> COM
+ PRIV -. guide .-> FB
