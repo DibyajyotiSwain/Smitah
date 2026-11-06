@@ -7,7 +7,6 @@ SMITAH is a proposed creative well-being platform concept exploring how self-dis
 > **Crafting A Glimpse of Smile.**
 
 **Project stage:** Concept proposal and academic documentation  
-**Application status:** No software application has been developed or tested.
 
 ---
 
